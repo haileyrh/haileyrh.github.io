@@ -1,0 +1,126 @@
+html {
+    background: rgb(252, 248, 242);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: rgb(252, 248, 242);
+    font-family: "New Spirit";
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 1em 1em .5em .75em;
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(200, 139, 88);
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(56, 115, 112);
+}
+
+h4 {
+    font-weight: 500;
+}
+
+p {
+    margin: 1em 2em 0em 1.5em;
+}
+nav ul {
+    margin: 0em 0em 1em 0em;
+    font-size: 20px;
+    padding: 0em;
+}
+nav ul li {
+    display: inline;
+    text-decoration-line: none;
+    padding-right: 1em;
+    padding-left: .5em;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+    padding: 0em 1em 1em 1em;
+}
+
+a {
+    color: rgb(252, 248, 242);
+    text-decoration-line: none;
+}
+
+b {
+    font-weight: 600;
+    text-decoration-line: none;
+}
+
+.beans {
+    color: rgb(56, 115, 112);
+    font-weight: 600;
+}
+samp {
+    display: none;
+}
+
+.price {
+    color: rgb(200, 139, 88);
+    font-style: italic;
+}
+
+.logo {
+    border: 0px;
+    margin-bottom: .5em;
+
+}
+
+header {
+    background-color: rgb(200, 139, 88);
+    padding: 1em 1em .5em 1em;
+    margin: 0;
+    max-width: 800px;
+}
+figure {
+    margin: 0;
+    padding: 1em 0em 0em 1em;
+}
+
+img {
+    background: transparent;
+    border: 4px solid rgb(204, 189, 120);
+    border-radius: 6px;
+    display: block;
+    max-width: 95%;
+}
+
+address {
+    margin: 1em 2em 0em 1.5em;
+    font-weight: 00;
+}
+
+footer {
+    background-color: rgb(56, 115, 112);
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(252, 248, 242);
+    padding: .5em .5em 1.5em 0em;
+    margin: 1em 0em 0em 0em;
+    max-width: 100%;  
+    }
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
