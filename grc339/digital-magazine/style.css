@@ -124,7 +124,7 @@ section.mainstory figure {
 h2 {
 	font-size: 2.5em;
 	margin-top: .5em;
-	font-family: Tenby Eight;
+	font-family: franklin-gothic-urw, sans-serif;
 }
 
 h3 {
@@ -132,7 +132,7 @@ h3 {
 	font-size: 1.4em;
 	font-weight: 600;
 	padding-right: 1em;
-	font-family: Tenby Eight;
+	font-family: franklin-gothic-urw, sans-serif;
 }
 
 section.tertiary h3 {
